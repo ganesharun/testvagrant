@@ -9,12 +9,21 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Properties;
-import org.json.simple.JSONArray;
+
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-
+/*---------------------------------------------------------------------------------------
+    Created By : Arun Ganesh
+    Date : 24-10-2021
+    class for all common utilities used across the project
+ */
 
 public class commonUtils {
+    /*---------------------------------------------------------------------------------------
+    Created By : Arun Ganesh
+    Date : 24-10-2021
+    to read environment properties from properties file
+    */
     public static String readProperties(String propkey) {
         String basedir = System.getProperty("user.dir");
         Properties prop = new Properties();
@@ -30,13 +39,22 @@ public class commonUtils {
         }
         return retval;
     }
-
+    /*---------------------------------------------------------------------------------------
+    Created By : Arun Ganesh
+    Date : 24-10-2021
+    to get the operating system type to select the correct driver.
+    */
     public static String getOSType()
     {
        String os = System.getProperty("os.name", "generic").toLowerCase(Locale.ENGLISH);
        return  os;
 
     }
+     /*---------------------------------------------------------------------------------------
+        Created By : Arun Ganesh
+        Date : 24-10-2021
+        to fire get request using rest assured.
+       */
 
     public static Response fireGetRequest(String url, HashMap<String,String> params,HashMap<String,String> headers)
     {
@@ -48,6 +66,12 @@ public class commonUtils {
         return response;
     }
 
+    /*---------------------------------------------------------------------------------------
+        Created By : Arun Ganesh
+        Date : 24-10-2021
+        parse JSON and get temperature value
+       */
+
     public static String getTempValueFromJson(String jsonString) throws ParseException {
 
         JSONParser parser = new JSONParser();
@@ -57,6 +81,12 @@ public class commonUtils {
         return valueFromPath;
     }
 
+     /*---------------------------------------------------------------------------------------
+        Created By : Arun Ganesh
+        Date : 24-10-2021
+        Parse json and get location details
+       */
+
     public  static  String getLocationFromJSON(String jsonString) throws ParseException{
         JSONParser parser = new JSONParser();
         JSONObject jsonObj = (JSONObject) parser.parse(jsonString);
@@ -65,7 +95,11 @@ public class commonUtils {
 
     }
 
-
+    /*---------------------------------------------------------------------------------------
+        Created By : Arun Ganesh
+        Date : 24-10-2021
+        Kill Selenium web driver
+       */
 
     public static void killDriver()
     {

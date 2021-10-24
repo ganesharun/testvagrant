@@ -12,10 +12,15 @@ import static org.assertj.core.api.Assertions.*;
 
 
 import java.util.HashMap;
+/*---------------------------------------------------------------------------------------
+    Created By : Arun Ganesh
+    Date : 24-10-2021
+    class for all api related features
+ */
 
 public class apiTests {
     logs oLog = new logs();
-    double apiTemp = 0.0;
+    public static double apiTemp = 0.0;
 
     @And("get the api temperature details from the api for the {string}")
     public void apiTest(String location) throws apiRequestFailException, ParseException {

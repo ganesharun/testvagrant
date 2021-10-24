@@ -5,6 +5,7 @@ pages/accuWeatherLocationPage.class
 pages/browser.class
 reportFactory/logs.class
 steps/accuWeatherTest.class
+Exception/differenceException.class
 runner/NGTestListener.class
 pages/accuWeatherHome.class
 common/commonUtils.class

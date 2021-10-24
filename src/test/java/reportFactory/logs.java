@@ -3,7 +3,11 @@ package reportFactory;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
-
+/*---------------------------------------------------------------------------------------
+    Created By : Arun Ganesh
+    Date : 24-10-2021
+    class for all log generation
+ */
 
 public class logs {
     public void createLogs()

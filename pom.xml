@@ -3,9 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>groupId</groupId>
-    <artifactId>Applied-Materials-Cucumber</artifactId>
+    <artifactId>TestVagrant</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -55,13 +54,11 @@
         </plugins>
     </build>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.0.0</version>
         </dependency>
-
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
@@ -72,9 +69,6 @@
             <artifactId>cucumber-junit</artifactId>
             <version>7.0.0</version>
         </dependency>
-
-
-
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
@@ -133,9 +127,5 @@
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
-
-
-
-
     </dependencies>
 </project>
