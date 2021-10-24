@@ -27,19 +27,19 @@ All the feature files will be placed in this path. The feature files will have s
 
 For the steps defined in the feature files, the step definition will be done in the java class in this package. 
 
-#Steps to Run
+# Steps to Run
  
 From Command Line:
 Once inside the folder run 
 
 mvn test
 
-#Reports
+# Reports
 
 The reports will get stored in the target folder.
 Cucumber-JVM-report.html is the report file, it can be opened in a browser to view the execution report. 
 
-#Driver Configuration:
+# Driver Configuration:
 Chrome 95 is used as a default browser. Please update the driver in the ./src/resources/drivers folder based on the chrome version and os.
 
 
