@@ -47,10 +47,10 @@ for MAC - 'chromedriver_mac'
 for Windows - 'chromedriver_win.exe'
 for Linux  = 'chromedriver_linux'
 
-#Object Details:
+# Object Details:
 
 The objects in the framework are maintained using page object model.
 POM related can be found in ./src/test/java/pages/
 
-#Assumption:
+# Assumption:
 The temperature difference is set at 1, the script will throw exception when the difference exceeds 1. the value could be changed from the feature file.
