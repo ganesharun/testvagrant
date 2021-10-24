@@ -5,7 +5,7 @@ import Base.BaseUtil;
 
 
 
-import com.report.CucumberExtentOptions;
+
 import io.cucumber.java.*;
 
 
@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeClass;
 import reportFactory.logs;
 import pages.browser;
 
+import java.io.File;
 import java.io.IOException;
 
 
@@ -55,15 +56,17 @@ public class Hook extends BaseUtil{
     }
     @BeforeClass
     public void beforeMethod() {
-        log.createLogs();
-        CucumberExtentOptions.getInstance().setDocumentTitle("Test Vagrant");
-        CucumberExtentOptions.getInstance().setReportLevel("Feature");
-        CucumberExtentOptions.getInstance().setReportName("WeatherMan");
+
     }
 
 
     @After
     public void TearDownTest(Scenario scenario) {
+        if (scenario.isFailed())  {
+            byte[] screenshot = ((TakesScreenshot) browser.driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png",scenario.getName());
+        }
+        browser.driver.quit();
     }
 
     @BeforeStep
@@ -72,9 +75,7 @@ public class Hook extends BaseUtil{
 
     @AfterStep
     public void afterStepHook(Scenario scenario) throws IOException {
-        if(scenario.isFailed()==true) {
-            scenario.embed(((TakesScreenshot)browser.driver).getScreenshotAs(OutputType.BYTES), "image/png");
-        }
+
     }
     @AfterTest
     public void end()

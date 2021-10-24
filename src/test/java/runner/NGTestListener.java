@@ -3,6 +3,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import reportFactory.logs;
 
+import java.util.Locale;
+
 public class NGTestListener implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {

@@ -55,36 +55,43 @@
         </plugins>
     </build>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>5.7.0</version>
+            <version>7.0.0</version>
         </dependency>
+
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>5.7.0</version>
+            <version>7.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>5.7.0</version>
+            <version>7.0.0</version>
         </dependency>
+
+
+
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
-            <version>5.7.0</version>
+            <version>7.0.0</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-core</artifactId>
-            <version>5.7.0</version>
+            <version>7.0.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.0.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
@@ -95,11 +102,7 @@
             <artifactId>rest-assured</artifactId>
             <version>4.4.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.0.4</version>
-        </dependency>
+
         <dependency>
             <groupId>tech.grasshopper</groupId>
             <artifactId>extentreports-cucumber5-adapter</artifactId>
@@ -114,11 +117,6 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.shivam9ronaldo7</groupId>
-            <artifactId>cucumber-extent</artifactId>
-            <version>1.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

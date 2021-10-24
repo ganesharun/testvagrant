@@ -1,5 +1,6 @@
 package common;
 import java.io.*;
+import java.util.Locale;
 import java.util.Properties;
 
 
@@ -18,6 +19,13 @@ public class commonUtils {
             e.printStackTrace();
         }
         return retval;
+    }
+
+    public static String getOSType()
+    {
+       String os = System.getProperty("os.name", "generic").toLowerCase(Locale.ENGLISH);
+       return  os;
+
     }
 }
 

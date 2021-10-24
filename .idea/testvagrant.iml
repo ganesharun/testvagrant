@@ -11,28 +11,28 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-testng:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.testng:testng:7.1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
-    <orderEntry type="library" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
-    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.21" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-junit:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-testng:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:7.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.78" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:jquery:3.5.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-junit:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-picocontainer:5.7.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.picocontainer:picocontainer:2.15" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin-vintage:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:tag-expressions:2.0.4" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-expressions:8.3.1" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:datatable:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-plugin:5.7.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:docstring:5.7.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-picocontainer:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.picocontainer:picocontainer:2.15" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-core:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-gherkin-messages:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:messages:17.1.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:tag-expressions:4.0.2" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-expressions:13.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:datatable:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:cucumber-plugin:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:docstring:7.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:html-formatter:17.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.cucumber:create-meta:6.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.0.0" level="project" />
@@ -88,6 +88,7 @@
     <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.60.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.60.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.60.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.netty:netty-reactive-streams:2.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
@@ -113,23 +114,15 @@
     <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3" level="project" />
-    <orderEntry type="library" name="Maven: com.aventstack:extentreports:5.0.4" level="project" />
-    <orderEntry type="library" name="Maven: io.reactivex.rxjava3:rxjava:3.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
-    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.30" level="project" />
-    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />
+    <orderEntry type="library" name="Maven: tech.grasshopper:extentreports-cucumber5-adapter:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: com.aventstack:extentreports:4.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.29" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: tech.grasshopper:extentreports-cucumber5-adapter:1.5.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mongodb:mongodb-driver:3.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mongodb:bson:3.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.mongodb:mongodb-driver-core:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:bson:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.7" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="library" name="Maven: com.github.shivam9ronaldo7:cucumber-extent:1.0.1" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:cucumber-java8:4.2.0" level="project" />
-    <orderEntry type="library" name="Maven: net.jodah:typetools:0.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:gherkin:5.1.0" level="project" />
-    <orderEntry type="library" name="Maven: io.cucumber:gherkin-jvm-deps:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-htmlunit-driver:2.52.0" level="project" />
     <orderEntry type="library" name="Maven: net.sourceforge.htmlunit:htmlunit:2.18" level="project" />
     <orderEntry type="library" name="Maven: xalan:xalan:2.7.2" level="project" />

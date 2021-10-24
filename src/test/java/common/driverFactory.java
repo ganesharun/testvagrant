@@ -28,11 +28,11 @@ public class driverFactory {
                 return getChromeDriver();
             case "edge":
                 return getEdgeDriver();
-            case "iexplorer":
+            case "iExplorer":
                 return getIEDriver();
             case "safari":
                 return getSafariDriver();
-            case "htmlunit":
+            case "htmlUnit":
                 return htmlUnitDriver();
             default:
                 throw new RuntimeException("Invalid Browser");
@@ -46,7 +46,7 @@ public class driverFactory {
     }
 
     private WebDriver htmlUnitDriver(){
-        WebDriver driver = new HtmlUnitDriver(true);
+        WebDriver driver = new HtmlUnitDriver();
         return driver;
     }
 
@@ -75,8 +75,20 @@ public class driverFactory {
 
     private WebDriver getChromeDriver() {
         //need to configure driver details
+        String baseDir = System.getProperty("user.dir");
+        if(commonUtils.getOSType().toLowerCase().contains("mac")) {
+            System.setProperty("webdriver.chrome.driver", baseDir + "/src/test/resources/drivers/chromedriver_mac");
+        }
+        else if(commonUtils.getOSType().toLowerCase().contains("win"))
+        {
+            System.setProperty("webdriver.chrome.driver", baseDir + "/src/test/resources/drivers/chromedriver_win.exe");
+        }
+        else if(commonUtils.getOSType().toLowerCase().contains("nux"))
+        {
+            System.setProperty("webdriver.chrome.driver", baseDir + "/src/test/resources/drivers/chromedriver_linux");
+        }
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setHeadless(true);
+        //chromeOptions.setHeadless(true);
         return new ChromeDriver(chromeOptions);
     }
 

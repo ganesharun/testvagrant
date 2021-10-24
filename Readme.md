@@ -8,14 +8,13 @@ To run the automation pack please install JDK 11 and mvn 3.6
 the necessary environment variables should be set.
 
 # Libraries Used in the Project
-1. Cucumber 5.7
+1. Cucumber 7.0.0
 2. TestNG 7.0.1
-3. Extent Reports 5.0.4
-4. Selenium 4.0.0
-5. Log 4j 1.2.17
-6. HTML Unit Driver 2.5.2
-7. Rest Assured 4.4.0
-8. assertj 3.21.0
+3. Selenium 4.0.0
+4. Log 4j 1.2.17
+5. HTML Unit Driver 2.5.2
+6. Rest Assured 4.4.0
+7. assertj 3.21.0
 
 # Feature File
 
@@ -38,4 +37,11 @@ mvn test
 
 #Reports
 
-The reports will get stored in the target folder.
+The reports will get stored in the target folder 
+
+#Driver Configuration:
+Chrome 95 is used as a default browser. Please update the driver in the ./src/resources/drivers folder
+
+for MAC - 'chromedriver_mac'
+for Windows - 'chromedriver_win.exe'
+for Linux  = 'chromedriver_linux'
