@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Complete test run</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Oct 24 20:33:03 IST 2021</td>
+<td>Started on:</td><td>Sun Oct 24 20:58:04 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>121 seconds (121208 ms)</td>
+<tr><td>Total time:</td><td>113 seconds (113991 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,39 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
-<td><div><pre>Exception.differenceException: The difference in temperature is 3.8000000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 24.8
-	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
+<td><div><pre>Exception.differenceException: The difference in temperature is 1.3500000000000014 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 22.35
+	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:66)
 	at ?.check if the difference in temperature is less than &quot;1&quot;(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1651251663", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1651251663'><pre>Exception.differenceException: The difference in temperature is 3.8000000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 24.8
-	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
-	at ?.check if the difference in temperature is less than &quot;1&quot;(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-</pre></div></td>
-<td>21</td>
-<td>runner.TestRunner@5e57643e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
-<td><div><pre>Exception.differenceException: The difference in temperature is 1.0500000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 20.0temperature from API is 21.05
-	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
-	at ?.check if the difference in temperature is less than &quot;1&quot;(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1588976146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1588976146'><pre>Exception.differenceException: The difference in temperature is 1.0500000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 20.0temperature from API is 21.05
-	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
+</pre></div><a href='#' onClick='toggleBox("stack-trace545266875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace545266875'><pre>Exception.differenceException: The difference in temperature is 1.3500000000000014 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 22.35
+	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:66)
 	at ?.check if the difference in temperature is less than &quot;1&quot;(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
 </pre></div></td>
 <td>21</td>
-<td>runner.TestRunner@5e57643e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
-<td><div><pre>Exception.differenceException: The difference in temperature is 1.6499999999999986 which is higher than permissible limit mentioned 1 temperature from accuWeather is 24.0temperature from API is 22.35
-	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
-	at ?.check if the difference in temperature is less than &quot;1&quot;(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1492272748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1492272748'><pre>Exception.differenceException: The difference in temperature is 1.6499999999999986 which is higher than permissible limit mentioned 1 temperature from accuWeather is 24.0temperature from API is 22.35
-	at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
-	at ?.check if the difference in temperature is less than &quot;1&quot;(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-</pre></div></td>
-<td>24</td>
 <td>runner.TestRunner@5e57643e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -121,12 +97,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
 <td></td>
-<td>22</td>
+<td>21</td>
 <td>runner.TestRunner@5e57643e</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
 <td></td>
-<td>30</td>
+<td>20</td>
+<td>runner.TestRunner@5e57643e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
+<td></td>
+<td>19</td>
+<td>runner.TestRunner@5e57643e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Optional[validate weather information from different sources and enables a comparison between them]"</td>
+<td></td>
+<td>29</td>
 <td>runner.TestRunner@5e57643e</td></tr>
 </table><p>
 </body>

@@ -53,4 +53,4 @@ The objects in the framework are maintained using page object model.
 POM related can be found in ./src/test/java/pages/
 
 #Assumption:
-The temperature difference is set at 2, the script will throw exception when the difference exceeds 2. the value could be changed from the feature file.
+The temperature difference is set at 2, the script will throw exception when the difference exceeds 1. the value could be changed from the feature file.

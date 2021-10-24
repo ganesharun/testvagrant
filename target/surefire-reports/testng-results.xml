@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="5" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="121208" started-at="2021-10-24T20:33:03 IST" finished-at="2021-10-24T20:35:04 IST">
+  <suite name="Suite" duration-ms="113991" started-at="2021-10-24T20:58:04 IST" finished-at="2021-10-24T20:59:58 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Complete test run" duration-ms="121208" started-at="2021-10-24T20:33:03 IST" finished-at="2021-10-24T20:35:04 IST">
+    <test name="Complete test run" duration-ms="113991" started-at="2021-10-24T20:58:04 IST" finished-at="2021-10-24T20:59:58 IST">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@5e57643e]" name="setUpClass" is-config="true" duration-ms="1088" started-at="2021-10-24T20:33:03 IST" finished-at="2021-10-24T20:33:04 IST">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@5e57643e]" name="setUpClass" is-config="true" duration-ms="689" started-at="2021-10-24T20:58:04 IST" finished-at="2021-10-24T20:58:05 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@643ba1ed]]>
+                <![CDATA[org.testng.TestRunner@528c8c1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="30446" started-at="2021-10-24T20:33:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:33:35 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="29731" started-at="2021-10-24T20:58:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:58:34 IST">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="21314" started-at="2021-10-24T20:33:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:33:56 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="19179" started-at="2021-10-24T20:58:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:58:54 IST">
           <params>
             <param index="0">
               <value>
@@ -50,21 +50,10 @@
               </value>
             </param>
           </params>
-          <exception class="Exception.differenceException">
-            <message>
-              <![CDATA[The difference in temperature is 3.8000000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 24.8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[Exception.differenceException: The difference in temperature is 3.8000000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 24.8
-at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
-at ✽.check if the difference in temperature is less than "1"(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- Exception.differenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="21198" started-at="2021-10-24T20:33:56 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:34:17 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="21130" started-at="2021-10-24T20:58:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:59:15 IST">
           <params>
             <param index="0">
               <value>
@@ -77,21 +66,10 @@ at ✽.check if the difference in temperature is less than "1"(file:///Users/aru
               </value>
             </param>
           </params>
-          <exception class="Exception.differenceException">
-            <message>
-              <![CDATA[The difference in temperature is 1.0500000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 20.0temperature from API is 21.05]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[Exception.differenceException: The difference in temperature is 1.0500000000000007 which is higher than permissible limit mentioned 1 temperature from accuWeather is 20.0temperature from API is 21.05
-at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
-at ✽.check if the difference in temperature is less than "1"(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
-]]>
-            </full-stacktrace>
-          </exception> <!-- Exception.differenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="24113" started-at="2021-10-24T20:34:17 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:34:41 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="21997" started-at="2021-10-24T20:59:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:59:37 IST">
           <params>
             <param index="0">
               <value>
@@ -106,11 +84,11 @@ at ✽.check if the difference in temperature is less than "1"(file:///Users/aru
           </params>
           <exception class="Exception.differenceException">
             <message>
-              <![CDATA[The difference in temperature is 1.6499999999999986 which is higher than permissible limit mentioned 1 temperature from accuWeather is 24.0temperature from API is 22.35]]>
+              <![CDATA[The difference in temperature is 1.3500000000000014 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 22.35]]>
             </message>
             <full-stacktrace>
-              <![CDATA[Exception.differenceException: The difference in temperature is 1.6499999999999986 which is higher than permissible limit mentioned 1 temperature from accuWeather is 24.0temperature from API is 22.35
-at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:62)
+              <![CDATA[Exception.differenceException: The difference in temperature is 1.3500000000000014 which is higher than permissible limit mentioned 1 temperature from accuWeather is 21.0temperature from API is 22.35
+at steps.accuWeatherTest.checkDifference(accuWeatherTest.java:66)
 at ✽.check if the difference in temperature is less than "1"(file:///Users/arunganesha/testvagrant/src/test/java/features/accuWeatherTest.feature:8)
 ]]>
             </full-stacktrace>
@@ -118,7 +96,7 @@ at ✽.check if the difference in temperature is less than "1"(file:///Users/aru
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="22674" started-at="2021-10-24T20:34:41 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:35:04 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e57643e]" name="runScenario" duration-ms="20840" started-at="2021-10-24T20:59:37 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T20:59:58 IST">
           <params>
             <param index="0">
               <value>
@@ -134,7 +112,7 @@ at ✽.check if the difference in temperature is less than "1"(file:///Users/aru
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5e57643e]" name="tearDownClass" is-config="true" duration-ms="199" started-at="2021-10-24T20:35:04 IST" finished-at="2021-10-24T20:35:04 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5e57643e]" name="tearDownClass" is-config="true" duration-ms="207" started-at="2021-10-24T20:59:58 IST" finished-at="2021-10-24T20:59:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

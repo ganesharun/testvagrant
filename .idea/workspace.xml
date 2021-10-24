@@ -2,80 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d28582-90b0-4865-8eb4-5914df9688c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exception/differenceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/common/commonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/commonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/common/driverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/driverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/weatherMan.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/accuWeatherTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/accuWeatherHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/accuWeatherHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/accuWeatherLocationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/accuWeatherLocationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/reportFactory/logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reportFactory/logs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/NGTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/NGTestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/accuWeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/accuWeatherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/apiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/apiTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Cucumber-JVM-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Logs.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Complete test run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Complete test run.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/Complete test run.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Base/BaseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Exception/apiRequestFailException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/commonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/driverFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/log4j.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver_mac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/environment.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/accuWeatherHome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/accuWeatherLocationPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/browser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/reportFactory/logs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/NGTestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/accuWeatherTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/apiTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Cucumber-JVM-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Cucumber-JVM-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/Logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Complete test run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Complete test run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Complete test run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Complete test run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runner.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/common/commonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/common/commonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/accuWeatherHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/accuWeatherHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/accuWeatherLocationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/accuWeatherLocationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/reportFactory/logs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/reportFactory/logs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/NGTestListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/NGTestListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/accuWeatherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/accuWeatherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/apiTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/apiTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
