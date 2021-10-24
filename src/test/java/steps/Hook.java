@@ -2,22 +2,13 @@ package steps;
 
 import Base.BaseUtil;
 
-
-
-
-
 import io.cucumber.java.*;
-
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterTest;
-
 import org.testng.annotations.BeforeClass;
 import reportFactory.logs;
 import pages.browser;
-
-import java.io.File;
 import java.io.IOException;
 
 

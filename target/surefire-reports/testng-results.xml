@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76550" started-at="2021-10-24T17:51:34 IST" finished-at="2021-10-24T17:52:50 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Complete test run" duration-ms="76550" started-at="2021-10-24T17:51:34 IST" finished-at="2021-10-24T17:52:50 IST">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="setUpClass" is-config="true" duration-ms="607" started-at="2021-10-24T17:51:34 IST" finished-at="2021-10-24T17:51:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48d293ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="runScenario" duration-ms="20525" started-at="2021-10-24T17:51:34 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T17:51:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[that validates weather information from different sources and enables a comparison between them]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="runScenario" duration-ms="13861" started-at="2021-10-24T17:51:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T17:52:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[that validates weather information from different sources and enables a comparison between them]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="runScenario" duration-ms="14533" started-at="2021-10-24T17:52:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T17:52:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[that validates weather information from different sources and enables a comparison between them]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="runScenario" duration-ms="12581" started-at="2021-10-24T17:52:23 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T17:52:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[that validates weather information from different sources and enables a comparison between them]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@4f51b3e0]" name="runScenario" duration-ms="14138" started-at="2021-10-24T17:52:36 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-24T17:52:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[that validates weather information from different sources and enables a comparison between them]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@4f51b3e0]" name="tearDownClass" is-config="true" duration-ms="141" started-at="2021-10-24T17:52:50 IST" finished-at="2021-10-24T17:52:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Complete test run -->
+  </suite> <!-- Suite -->
+</testng-results>
