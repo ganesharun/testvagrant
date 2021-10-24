@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import reportFactory.logs;
 import pages.browser;
 import java.io.IOException;
+import common.commonUtils;
 
 
 public class Hook extends BaseUtil{
@@ -32,15 +33,15 @@ public class Hook extends BaseUtil{
         if(cucumberFeatures.size()!=0) {
             if (!cucumberFeatures.contains(featureFile)) {
                 cucumberFeatures.add(featureFile);
-                log.startTestCase(featureFile);
+
             }
         }
         else
         {
             cucumberFeatures.add(featureFile);
-            log.startTestCase(featureFile);
+
         }
-        log.info(scenario.getName());
+
 
 
 
@@ -57,7 +58,7 @@ public class Hook extends BaseUtil{
             byte[] screenshot = ((TakesScreenshot) browser.driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png",scenario.getName());
         }
-        browser.driver.quit();
+        commonUtils.killDriver();
     }
 
     @BeforeStep

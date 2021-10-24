@@ -1,6 +1,7 @@
 package steps;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 import pages.*;
@@ -12,6 +13,7 @@ public class accuWeatherTest {
     browser oBrowser = new browser();
     logs oLog = new logs();
     driverFactory oDriverFactory = new driverFactory();
+    double accuWeatherTemp = 0.0;
 
     @Given("user navigates to {string}")
     public void userNavigatesTo(String url) throws Exception {
@@ -31,17 +33,22 @@ public class accuWeatherTest {
 
     @When("the page is loaded successfully search for {string}")
     public void thePageIsLoadedSuccessfullySearchForCity(String location) {
-        try {
+
             accuWeatherHome oAccuWeatherHome = PageFactory.initElements(browser.driver, accuWeatherHome.class);
             accuWeatherLocationPage ocAcuWeatherLocationPage = PageFactory.initElements(browser.driver, accuWeatherLocationPage.class);
             oAccuWeatherHome.accuWeathersearchLocation.sendKeys(location);
             oAccuWeatherHome.searchResultFirstOption.click();
             String locationDetails = ocAcuWeatherLocationPage.locationName.getText();
-            assertThat(locationDetails.toLowerCase()).contains(location);
-        }
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
+            assertThat(locationDetails.toLowerCase()).contains(location.toLowerCase());
+
     }
+
+    @Then("get the temperature details of the location")
+    public void getAccuWeatherTemperature()
+    {
+        accuWeatherLocationPage ocAcuWeatherLocationPage = PageFactory.initElements(browser.driver, accuWeatherLocationPage.class);
+        accuWeatherTemp=Double.parseDouble(ocAcuWeatherLocationPage.currentTempElement.getText().substring(0,2));
+    }
+
+
 }

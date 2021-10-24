@@ -12,4 +12,7 @@ public class accuWeatherLocationPage {
     }
     @FindBy(how = How.XPATH, using = ".//h1[@class='header-loc']")
     public WebElement locationName;
+
+    @FindBy(how = How.XPATH, using = ".//div[@class='cur-con-weather-card__panel']/*//div[@class='temp']")
+    public  WebElement currentTempElement;
 }

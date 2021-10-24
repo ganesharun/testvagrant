@@ -139,5 +139,6 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.2.12.v20150709" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.2.12.v20150709" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
   </component>
 </module>

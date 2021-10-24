@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.413 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.763 s <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunner)  Time elapsed: 23.845 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'check if the difference in temperature is less than "2"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("check if the difference in temperature is less than {string}")
+public void check_if_the_difference_in_temperature_is_less_than(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

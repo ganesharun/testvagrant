@@ -1,5 +1,7 @@
 runner/TestRunner.class
+Exception/apiRequestFailException.class
 Base/BaseUtil.class
+pages/accuWeatherLocationPage.class
 pages/browser.class
 reportFactory/logs.class
 steps/accuWeatherTest.class
@@ -7,4 +9,5 @@ runner/NGTestListener.class
 pages/accuWeatherHome.class
 common/commonUtils.class
 steps/Hook.class
+steps/apiTests.class
 common/driverFactory.class
